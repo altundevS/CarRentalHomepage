@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <title>CIRA-Autovermietung</title>
+
+    <link rel="icon" type="image/x-icon" href="/img/ciraautovermietunglogo2.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+  </head>
+  <body>
+    <header>
+      <div class="container">
+       
+          <button  class="LogoBtn" onclick="LogoClick()">
+            <img class="logo" src="/img/ciraautovermietunglogo1.png" alt="">
+        </button>
+
+        <div id="menu">
+          
+          <div id="menu-bar" onclick="menuOnClick()">
+            
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+          </div>
+          <nav class="nav" id="nav">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="contact.html">Kontakt</a></li>
+              <li><a href="#carsection">Fahrzeuge</a></li>
+              <li><a href="gutscheine.html">Gutscheine</a></li>
+              <li><a href="impressum.html">Impressum</a></li>
+              <li><a href="buchen.html">Buchen</a></li>
+            </ul>
+          </nav> 
+        </div>
+        
+        <div class="menu-bg" id="menu-bg"></div>
+        
+
+        <div class="navigation">
+        <a class="menu-link" href="index.html">Home</a>
+        <a class="menu-link" href="contact.html">Kontakt</a>
+        <a class="menu-link" href="#carsection">Fahrzeuge</a>
+        <a class="menu-link" href="gutscheine.html">Gutscheine</a>
+        <a class="menu-link" href="impressum.html">Impressum</a>
+        <a class="menu-link button" href="buchen.html">Buchen</a>  
+        </div>
+  </header>
+
+  <div id="preloader"></div>
+
+  
+  <section class="slider_container">
+    
+    <section class="slider">
+        <div class="slide one">
+            <img class="header-image" src="/img/bmwsilber.jpg" alt="">
+            <h1 class="headline">Deine <span class="yellow"><br>Autovermietung</span><br>in Herne & Umgebung</h1>
+            <span class="caption">
+                inkl. Vollkasko
+            </span>
+        </div>
+
+        <div class="slide two">
+            <img class="header-image" src="/img/mercedesbild1.jpg" alt="">
+            <h1 class="headline">Deine <span class="yellow"><br>Autovermietung</span><br>in Herne & Umgebung</h1>
+            <span class="caption">      
+                inkl. 24/7 Service
+            </span>
+        </div>
+
+        <div class="slide three">
+            <img class="header-image" src="/img/porscheweis.jpg" alt="">
+            <h1 class="headline">Deine <span class="yellow"><br>Autovermietung</span><br>in Herne & Umgebung</h1>
+            <span class="caption">
+          
+                Fahrer dazu buchbar
+            </span>
+        </div>
+
+        <div class="slide three">
+          <img class="header-image" src="/img/mercedes-benz-841465_1920.jpg" alt="">
+          <h1 class="headline">Deine <span class="yellow"><br>Autovermietung</span><br>in Herne & Umgebung</h1>
+          <span class="caption">
+                inkl. Kilometer frei
+          </span>
+      </div>
+
+      <div class="slide three">
+        <img class="header-image" src="/img/ein-blaues-auto-das-auf-die-strasse-faehrt.jpg" alt="">
+        <h1 class="headline">Deine <span class="yellow"><br>Autovermietung</span><br>in Herne & Umgebung</h1>
+        <span class="caption">
+                CIRA Autovermietung
+        </span>
+    </div>
+
+    </section>
+  </section>
+ 
+
+</div>
+    </div>
+ 
+   
+
+    <section class="description1" id="description1">
+      <h1 class="heading"><span>CIRA Autovermietung</span> Herne </h1>
+      <div class="description1text reveal" id="carsection">
+
+          <p class="p1">Sie sind auf der Suche nach einem zuverlässigen Gefährt für Ihre nächste Geschäftsreise, Ihren wohlverdienten Urlaub oder einen besonderen Anlass? Dann sind Sie hier genau richtig! Bei CIRA Autovermietung bieten wir eine vielfältige Auswahl an Fahrzeugen, von kompakten Stadtautos über luxuriöse Limousinen bis hin zu robusten SUVs, die alle Ansprüche und Bedürfnisse abdecken.<span id="dots">...</span><button onclick="myFunction()" id="myBtn">Weiterlesen</button></p>
+          <br>
+          <p class="p1"><span id="more">Unsere Mission ist es, Ihnen nicht nur ein Auto zu vermieten, sondern ein unvergessliches Fahrerlebnis zu garantieren. Mit unserem erstklassigen Kundenservice, wettbewerbsfähigen Preisen und hochwertigen Fahrzeugen sind wir stolz darauf, der bevorzugte Partner für all Ihre Mobilitätsbedürfnisse zu sein.
+            <br>
+            <br>
+            Stöbern Sie durch unser vielseitiges Angebot und entdecken Sie, wie einfach und angenehm das Mieten eines Autos sein kann. Wenn Sie Fragen haben oder Unterstützung benötigen, steht unser freundliches Team jederzeit bereit, um Ihnen zu helfen.
+            <br>
+            <br>
+            Willkommen bei CIRA Autovermietung. Wir freuen uns darauf, Sie mobil zu machen!</span>
+          </p>
+          
+
+      </div>
+    </section>
+
+ 
+
+    <section class="vehicles reveal" id="vehicles" >
+        
+        <h1 class="heading"  > Unsere <span> Fahrzeuge</span></h1>
+
+        <div class="swiper vehicles-slider" >
+
+            <div class="swiper-wrapper">
+
+
+                <div class="swiper-slide box">
+                    <img src="/img/Golf8GTINeuNeu.png" alt="">
+                    <div class="content" >
+                        <h3>Volkswagen Golf 8 GTI</h3>
+                        <div class="price"> <span>Jetzt ab: </span> 119 &#8364;/Tag</div>
+                        <p>
+                            <span class="fas fa-circle"></span> 2022
+                            <span class="fas fa-circle"></span> automatik
+                            <span class="fas fa-circle"></span> Benzin
+                            <span class="fas fa-circle"></span> 250ps
+                        </p>
+                        <a href="buchen.html" class="btn">Anfragen</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="/img/ciraautovermietungMustang1-removebg1.png" alt="">
+                    <div class="content">
+                        <h3>Ford Mustang</h3>
+                        <div class="price"> <span>Jetzt ab: </span> 249 &#8364;/Tag</div>
+                        <p>
+                            <span class="fas fa-circle"></span> 2015
+                            <span class="fas fa-circle"></span> automatik
+                            <span class="fas fa-circle"></span> Benzin
+                            <span class="fas fa-circle"></span> 450ps
+                        </p>
+                        <a href="buchen.html" class="btn">Anfragen</a>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide box">
+                    <img src="/img/WhatsApp_Image_2024-01-03_at_22.26.56-w2hDi14kS-transformed-removebg1.png" alt="">
+                    <div class="content">
+                        <h3>Volkswagen Golf 8 Clubsport</h3>
+                        <div class="price"> <span>Jetzt ab: </span> 139 &#8364;/Tag</div>
+                        <p>
+                            <span class="fas fa-circle"></span> 2021
+                            <span class="fas fa-circle"></span> automatik
+                            <span class="fas fa-circle"></span> Diesel
+                            <span class="fas fa-circle"></span> 130ps
+                        </p>
+                        <a href="buchen.html" class="btn">Anfragen</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide box">
+                    <img src="/img/TransporterNeuNeu.png" alt="">
+                    <div class="content">
+                        <h3>Peugeot Boxer L3H2</h3>
+                        <div class="price"> <span>Jetzt ab: </span> 89 &#8364;/Tag </div>
+                        <p>   
+                            <span class="fas fa-circle"></span> 2018
+                            <span class="fas fa-circle"></span> Schalter
+                            <span class="fas fa-circle"></span> Diesel
+                            <span class="fas fa-circle"></span> 130ps
+                        </p>
+                        <a href="buchen.html" class="btn">Anfragen</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>         
+    </div> 
+    </section>
+
+   
+
+    <div class="video-wrapper reveal">
+      <video playsinline autoplay muted loop poster="/img/MustangHintenHS.jpeg">
+        <source src="/img/VideoMustang.mp4" type="video/mp4">
+      </video>
+
+      <div class="video-header">
+        <h1 class="reveal">Kontaktiere uns</h1>
+        <div class="social-video">
+          <a href="#"><i class="video-social fab fa-instagram fa-2xl reveal "></i></a>
+          <a href="#"><i class="video-social fab fa-tiktok fa-2xl reveal"></i></a>
+          <a href="#"><i class="video-social fab fa-whatsapp fa-2xl reveal"></i></a>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="image-wrapper reveal">
+      <img class="imgmain" src="/img/mercedes-benz-841465_1920.jpg"></img>
+
+      <div class="image-header">
+        <h1 class="reveal contact-desc">Kontaktiere uns</h1>
+        <div class="social-image">
+          <a href="#"><i class="image-social fab fa-instagram fa-2xl reveal"></i></a>
+          <a href="#"><i class="image-social fab fa-tiktok fa-2xl reveal"></i></a>
+          <a href="#"><i class="image-social fab fa-whatsapp fa-2xl reveal"></i></a>
+        </div>
+      </div>
+    </div>
+
+    <!--
+      Füge hier deine generierten Google bewertungen hinzu
+    <section class="googlereviews">
+      <h1 class="heading"> Unsere <span> Kundenzufriedenheit</span></h1>
+      <div class=""></div>
+    </section>
+    -->
+    <section class="symbolsgrid" id="symbolsgrid">
+
+      <div class="headingsymbols">
+   
+        
+      </div>
+      <div class="ride-container reveal">
+        
+        <div class="box reveal">
+          <i class="fa-regular fa-face-smile"></i>
+          <h2>Unkompliziert und einfach</h2>
+       
+          <p>Unser Hauptaugenmerk liegt darauf, Ihnen einen reibungslosen Ablauf zu gewährleisten. Mit der einfachen Online-Anfrage Ihres Wunschfahrzeugs übernehmen wir alle weiteren Schritte für Sie. Für eine vertrauensvolle Atmosphäre werden Sie bereits im voraus über Gebühren informiert.</p>
+        </div>
+
+        <div class="box reveal">
+          <i class="fa-regular fa-clock"></i>
+          <h2>24 Stunden Service</h2>
+          <p>Wir sind 24 Stunden für Sie über unsere Hotline oder unseren Whatsapp Mietservice erreichbar. Bei uns ist der Kunde König. Bei Fragen und Anregungen können Sie auch unser Kontaktformular benutzen.</p>
+        </div>
+
+        <div class="box reveal">
+          <i class="fa-regular fa-thumbs-up"></i>
+          <h2>Fahrzeuge, die begeistern</h2>
+          <p>Sie teilen unsere Leidenschaft für schnelle, luxuriöse Autos? Dann sind Sie bei CIRA Autovermietung richtig. Wir bieten die neusten Fahrzeuge günstig und unkompliziert zur Miete an.</p>
+        </div>
+      </div>
+    </section>
+
+    <div class='sk-instagram-feed' data-embed-id='246927'></div>
+    <section class="ScrollTopBtn InstagramIcon">
+        <a href='#' class="stt" title="scroll to top"></a>
+        <a href="https://www.instagram.com/cira_autovermietung/" class="fab fa-instagram fa-2x insta" title="insta scroll"></a>
+    </section>
+
+ 
+    
+    <iframe class="" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2481.8049599478!2d7.163309903427123!3d51.535137073432125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xace34737bbdb4737%3A0x9a538c2e95dbc31a!2sCIRA%20Autovermietung!5e0!3m2!1sde!2sde!4v1691753199255!5m2!1sde!2sde"   style="border:none"  loading="lazy" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+      
+    <h1 class="heading">  <span> Fotogalerie</span></h1>
+    <section class="imagegallary10">
+      <div class="image-gallery">
+        <div class="image-box">
+          <img src="img/MstangSeitlichHS.jpeg" alt="img.jpg" />
+          <div class="overlay">
+            <div class="details">
+              <h3 class="title">
+                <a href="https://www.instagram.com/ciraautovermietung/">Instagram</a>
+              </h3>
+              <span class="category">
+                <a href="https://www.instagram.com/ciraautovermietung/">ciraautovermietung</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="img/MustangHintenHS.jpeg" alt="img.jpg" />
+          <div class="overlay">
+            <div class="details">
+              <h3 class="title">
+                <a href="https://www.instagram.com/ciraautovermietung/">Instagram</a>
+              </h3>
+              <span class="category">
+                <a href="https://www.instagram.com/ciraautovermietung/">ciraautovermietung</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="img/IMG-20230813-WA0014.jpg" alt="img.jpg" />
+          <div class="overlay">
+            <div class="details">
+              <h3 class="title">
+                <a href="https://www.instagram.com/ciraautovermietung/">Instagram</a>
+              </h3>
+              <span class="category">
+                <a href="https://www.instagram.com/ciraautovermietung/">ciraautovermietung</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="img/GolfClubsport.jpeg" alt="img.jpg" />
+          <div class="overlay">
+            <div class="details">
+              <h3 class="title">
+                <a href="https://www.instagram.com/ciraautovermietung/">Instagram</a>
+              </h3>
+              <span class="category">
+                <a href="https://www.instagram.com/ciraautovermietung/">ciraautovermietung</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="img/GolfClubsportHinten.jpeg" alt="img.jpg" />
+          <div class="overlay">
+            <div class="details">
+              <h3 class="title">
+                <a href="https://www.instagram.com/ciraautovermietung/">Instagram</a>
+              </h3>
+              <span class="category">
+                <a href="https://www.instagram.com/ciraautovermietung/">ciraautovermietung</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="img/golfinnenraum.jpg" alt="img.jpg" />
+          <div class="overlay">
+            <div class="details">
+              <h3 class="title">
+                <a href="https://www.instagram.com/ciraautovermietung/">Instagram</a>
+              </h3>
+              <span class="category">
+                <a href="https://www.instagram.com/ciraautovermietung/">ciraautovermietung</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="img/gtihinten2.jpeg" alt="img.jpg" />
+          <div class="overlay">
+            <div class="details">
+              <h3 class="title">
+                <a href="https://www.instagram.com/ciraautovermietung/">Instagram</a>
+              </h3>
+              <span class="category">
+                <a href="https://www.instagram.com/ciraautovermietung/">ciraautovermietung</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="img/gtivorne.jpeg" alt="img.jpg" />
+          <div class="overlay">
+            <div class="details">
+              <h3 class="title">
+                <a href="https://www.instagram.com/ciraautovermietung/">Instagram</a>
+              </h3>
+              <span class="category">
+                <a href="https://www.instagram.com/ciraautovermietung/">ciraautovermietung</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="img/gtihinten.jpeg" alt="img.jpg" />
+          <div class="overlay">
+            <div class="details">
+              <h3 class="title">
+                <a href="https://www.instagram.com/ciraautovermietung/">Instagram</a>
+              </h3>
+              <span class="category">
+                <a href="https://www.instagram.com/ciraautovermietung/">ciraautovermietung</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="img/transporterVorneSeitlich.jpg" alt="img.jpg" />
+          <div class="overlay">
+            <div class="details">
+              <h3 class="title">
+                <a href="https://www.instagram.com/ciraautovermietung/">Instagram</a>
+              </h3>
+              <span class="category">
+                <a href="https://www.instagram.com/ciraautovermietung/">ciraautovermietung</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="img/transporterhinten.jpg" alt="img.jpg" />
+          <div class="overlay">
+            <div class="details">
+              <h3 class="title">
+                <a href="https://www.instagram.com/ciraautovermietung/">Instagram</a>
+              </h3>
+              <span class="category">
+                <a href="https://www.instagram.com/ciraautovermietung/">ciraautovermietung</a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="image-box">
+          <img src="img/9F0886E1-C174-4B98-B5C6-94AF61EC9D5D.jpeg" alt="img.jpg" />
+          <div class="overlay">
+            <div class="details">
+              <h3 class="title">
+                <a href="https://www.instagram.com/ciraautovermietung/">Instagram</a>
+              </h3>
+              <span class="category">
+                <a href="https://www.instagram.com/ciraautovermietung/">ciraautovermietung</a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+   
+
+
+    <section class="footer">
+
+      <div class="footerwrapper">
+
+        <div class="social">
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+          <ul class="list">
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="contact.html">Kontakt</a>
+            </li>
+            <li>
+              <a href="#carsection">Fahrzeuge</a>
+            </li>
+            <li>
+              <a href="impressum.html">Impressum</a>
+            </li>
+            <li>
+              <a href="datenschuterklarung.html">Datenschutzerklärung</a>
+            </li>
+          </ul>
+          <p class="offnugszeiten"> Öffnungszeiten 
+          <br>
+          <br>
+            Montag - Samstag:
+          <br>
+            9:00 Uhr - 20:00 Uhr
+          <br>
+          <br>
+            Sonn- & Feiertags:
+          <br>
+            nach Absprache
+
+        </p>
+      </div>
+    </section>
+
+  
+
+    <section class="copyrights">
+      <div class="copyrightdiv">
+        <p style="color: #aaa;">&#169; altunDev All Right Reserved</p>
+      </div>
+    </section>
+
+    <div class="backgroundmain"></div>
+  </body>
+
+<script src="https://kit.fontawesome.com/248495142e.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+<!--<script src="https://cdn.commoninja.com/sdk/latest/commonninja.js" defer></script> Für Google Bewertungen--> 
+</html>
